@@ -1,0 +1,63 @@
+<style>
+    .auth form .form-group .form-control, .auth form .form-group .dataTables_wrapper select, .dataTables_wrapper .auth form .form-group select {
+        background: transparent;
+        border-radius: 0 !important;
+        font-size: .9375rem;}
+    .form-control-lg{
+        border-radius: 0px !important;
+    }
+    .auth-form-light{
+        border: 1px solid gray;
+        margin: 30px 0px 120px;
+
+    }
+</style>
+<div class="content">
+<br><br>
+<div class="row">
+    <div class="col-lg-6 mx-auto ">
+        <div class="auth-form-light text-left py-5 px-4 px-sm-5">
+
+            <h4>Đăng Ký</h4>
+            <h6 class="font-weight-light">Đăng nhập để tiếp tục làm bài thi.</h6>
+            <form class="pt-3" name="frmUser">
+                <div class="form-group">
+                    <input type="text" class="form-control form-control-lg" id="exampleInputEmail1"
+                           placeholder="Họ Tên" ng-model="user.fullname" name="fullname"  required>
+                           <span  style="color: red" ng-hide="frmUser.fullname.$valid">Vui lòng nhập họ tên</span>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control form-control-lg" id="exampleInputEmail1"
+                           placeholder="Username" ng-model="user.name" name="name" value="" required>
+                           <span  style="color: red" ng-hide="frmUser.name.$valid">Vui lòng nhập tên tài khoản</span>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" value=""
+                           placeholder="Password"  ng-model="user.password" name="password"required>
+                           <span  style="color: red" ng-hide="frmUser.password.$valid">Vui lòng nhập mật khẩu</span>
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control form-control-lg" value=""
+                           placeholder="Số điện thoại"  ng-model="user.phone" name="phone" required pattern="[0-9 ]{10}">
+                           <span  style="color: red" ng-hide="frmUser.phone.$valid">Vui lòng nhập số điện thoại hợp lệ</span>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control form-control-lg" value=""
+                           placeholder="Email"  ng-model="user.email" name="email" required>
+                           <span  style="color: red" ng-hide="frmUser.email.$valid">Vui lòng nhập đúng email</span>
+                </div>
+                  <span id="messLog"  style="color: red">{{messLog}}</span>
+                <div class="mt-3">
+                    <button type="submit"  ng-click="create(user)"  class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn">Đăng Ký </button>
+                </div>
+                <div class="text-center mt-4 font-weight-light">
+                    Tôi đã có tài khoản <a href="#!login" class="text-primary">Đăng Nhập</a>
+                </div>
+            
+            </form>
+        </div>
+    </div>
+
+</div>
+<br><br>
+</div>

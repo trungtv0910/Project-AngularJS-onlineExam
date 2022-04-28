@@ -1,0 +1,42 @@
+<div class="content banner ng-scope">
+    <div class="row">
+        <div class="col-md-9">
+            <div class="item_header"><p><b style="text-transform: uppercase;">Quản Lý Bài Thi</b>  
+            </div>
+
+
+            <table class="table">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Môn Thi</th>
+                    <th scope="col">Điểm</th>
+                    <th scope="col">Ngày Thi</th>
+                    <th scope="col">Đáp Án</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr ng-repeat="(key,item) in list_test">
+                    <th scope="row">{{key+1}}</th>
+                    <td>{{item.subjectName}}</td>
+                    <td><span class="badge badge-primary"> {{item.mark}}/10</span>
+                       </td>
+                       <td>{{item.date|date:'dd/MM/yyyy'}}</td>
+                    <td><a href="#!result/{{item.id}}" class="btn btn-primary">Kết Quả</a></td>
+                  </tr>
+                 
+                </tbody>
+              </table>
+              
+             
+        </div>
+        <div class="col-md-3">
+            <div class="anhQc">
+                <img src="image/banner-vung-thuong-hieu.png" alt="">
+                <div class="btn btn-primary w-100">Tải ứng dụng Free Test</div>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br><br>
+<br>

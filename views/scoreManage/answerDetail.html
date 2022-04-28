@@ -1,0 +1,38 @@
+<div class="content banner ng-scope">
+    <div class="row">
+        <div class="col-md-9">
+            <div class="item_header"><p><b style="text-transform: uppercase;">Đáp Án</b>  
+            </div>
+
+
+            <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Câu hỏi</th>
+                   
+                    <th scope="col">Đáp Án</th>
+                  
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr ng-repeat="(key,item) in list_answer">
+                    <th scope="row">{{key+1}}</th>
+                    <td>{{item.Text}}</td>
+                    <td>{{item.Answer}}</td>
+                   
+                  </tr>
+                 
+                </tbody>
+              </table>
+              
+             
+        </div>
+        <div class="col-md-3">
+            <div class="anhQc">
+                <img src="image/banner-vung-thuong-hieu.png" alt="">
+                <div class="btn btn-primary w-100">Tải ứng dụng Free Test</div>
+            </div>
+        </div>
+    </div>
+</div>

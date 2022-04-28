@@ -1,0 +1,6 @@
+.multiple-carousel .img-fluid {
+    height: 150px;
+}
+.multiple-carousel .carousel-inner .col-3{
+ padding: 0 10px;
+}

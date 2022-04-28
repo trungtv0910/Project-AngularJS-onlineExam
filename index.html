@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
+    <title>Free Test - Hệ Thống Thi Online miễn phí </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/multiple-carousel.css">
+
+
+
+    <script src="js/angular-1.8.2/angular.min.js"></script>
+    <script src="js/angular-1.8.2/angular-route.min.js"></script>
+
+  
+    <script src="myapp.js"></script>
+
+</head>
+
+<body id="sider-bar" ng-app="myApp">
+    <div class="container-fluid">
+        <header>
+            <nav class="navbar navbar-header navbar-expand-lg navbar-light bg-light fixed-top">
+                <button class="navbar icon-sidebar" id="sider-bar-show" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">Free Test</a>
+
+                <div id="my-nav" class="collapse navbar-collapse"   ng-controller ="AccountCtrl"   >
+                  
+                    <ul class="navbar-nav mr-auto">
+                        <!-- <li class="nav-item active">
+                            <a class="nav-link" href="#">Item 1 <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Item 2</a>
+                        </li> -->
+                    </ul>
+
+                    <ul class="navbar-nav mr-0 navbar-right" ng-show="checkAccount()">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#!login">Đăng Nhập <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#!resigter" tabindex="-1" aria-disabled="true">Đăng Ký</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav mr-0 navbar-right" ng-hide="checkAccount()">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="">Xin chào: <span>{{nameUser}}</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#!scoreManage">Quản Lý Bài Thi<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#!logout" tabindex="-1" ng-click="logout" aria-disabled="true">Đăng Xuất</a>
+                            <!-- <button class="nav-link " tabindex="-1" ng-click="logout()" aria-disabled="true">Đăng xuất</button> -->
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- end header -->
+
+        <!-- main -->
+        <div class="page-body-wrapper">
+            <nav class="sidebar sidebar-offcanvas" id="sidebar">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#/!">
+                            <i class="fa-solid fa-house-chimney-window"></i>
+                            <span class="menu-title">Trang Chủ</span>
+                        </a>
+                    </li>
+                </ul>
+                <hr>
+                <ul class="nav">
+
+                    <li class="nav-item active">
+                        <a class="nav-link collapsed" data-toggle="collapse" href="#dethi" aria-expanded="false"
+                            aria-controls="dethi">
+                            <i class="fa-solid fa-list menu-icon"></i>
+                            <span class="menu-title" style="font-weight: bold">Đề Ôn Thi Đại Học</span>
+                            <i class="fa-solid fa-chevron-down menu-arrow"></i>
+                        </a>
+                        <div class="collapse show" id="dethi">
+                            <ul class="nav flex-column sub-menu"ng-controller="categoriesCtrl">
+                                <li class="nav-item"> <a class="nav-link active" href="#!subjects"><i
+                                            class="fa-solid fa-circle-plus"></i>Tất Cả Khoá Học</a></li>
+
+                                <li class="nav-item" ng-repeat="(key,item) in list_category">
+                                     <a class="nav-link" href="#!catesubject/{{item.Id}}" >
+                                          <i class="fa-solid {{item.Icon}}"></i>
+                                        Luyện Thi {{item.Name}}</a></li>
+                                <!-- <li class="nav-item"> <a class="nav-link" href="#!catesubject/TA"> <i
+                                            class="fa-solid fa-language"></i>Luyện Thi Tiếng Anh</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="#!catesubject/SH"> <i class="fa-solid fa-dna"></i>Luyện
+                                        Thi Sinh Học</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="#!catesubject/LT"> <i class="fa-solid fa-code"></i>Luyện
+                                            Thi Lập Trình</a></li> -->
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#pr-basic" aria-expanded="false"
+                            aria-controls="pr-basic">
+
+                            <i class="fa-solid fa-folder menu-icon"></i>
+                            <span class="menu-title" style="font-weight: bold">Các khoá học Khác</span>
+                            <i class="fa-solid fa-chevron-down menu-arrow"></i>
+                        </a>
+                        <div class="collapse" id="pr-basic">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item"> <a class="nav-link" href="">Đề Thi 15p</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="">Đề kiểm Ielst</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+
+                </ul>
+                <hr>
+                <br>
+                <ul class="nav info-web">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!about">
+                            <span class="menu-title">Giới Thiệu</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!contact">
+                            <span class="menu-title">Liên Hệ</span>
+                        </a>
+                    </li>
+                    
+                   
+                </ul>
+            </nav>
+            <!-- end nav -->
+
+            <!-- start main -->
+            <div class="main-content">
+
+                <!-- phần banner cho home -->
+                <div class="ng-view"></div>
+
+                <!-- phần khác -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <footer>
+
+                            <p class="text-center">Copyright :: All Rights Reserved</p>
+                            <p class="text-center">Designed by Trung</p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <!-- page body -->
+
+
+
+
+    </div>
+    <!-- container -->
+
+
+  
+    <!-- <script src="js/multiple-carousel.js"></script> -->
+    <script src="js/jquery.js"></script>
+   
+    <script src="js/bootstrap.min.js"></script>
+
+  
+
+    <script>
+        $('#sider-bar-show').on('click', function () {
+            $('#sider-bar').toggleClass('sidebar-only');
+
+        })
+    </script>
+    <script src="js/angular.min.js"></script>
+  
+  
+    
+</body>
+
+</html>

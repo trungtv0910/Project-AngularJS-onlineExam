@@ -1,0 +1,512 @@
+{
+  "listStudent": [
+    {
+      "id": 1,
+      "username": "Teo",
+      "password": "iloveyou",
+      "fullname": "Nguyễn Văn Tèo",
+      "email": "teo@gmail.com",
+      "gender": "true",
+      "birthday": "1994-12-21",
+      "schoolfee": 1500000,
+      "marks": [
+        {
+          "subject_id": "TA",
+          "mark": 7
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "username": "Heo",
+      "password": "iloveyou",
+      "fullname": "Nguyễn Văn Heo",
+      "email": "heo@gmail.com",
+      "gender": "true",
+      "birthday": "1994-12-21",
+      "schoolfee": 1500000,
+      "marks": 0
+    },
+    {
+      "email": "trung@gmail.com",
+      "password": "1234566",
+      "id": 3
+    },
+    {
+      "username": "Tuấn Nguyễn",
+      "password": "2123222va",
+      "fullname": "Nguyễn Văn Tuấn",
+      "email": "tuan@gmail.com",
+      "gender": "0",
+      "birthday": "1",
+      "schoolfee": "1",
+      "marks": "1",
+      "id": 4
+    },
+    {
+      "subject_id": "TA",
+      "mark": 7,
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "username": "trungtv0910",
+      "password": "Vantrung1",
+      "fullname": "Trần Văn Trung",
+      "email": "trung@gmail.com",
+      "phone": 973127008,
+      "id": 7
+    },
+    {
+      "username": "trung462",
+      "password": "Vantrung1",
+      "fullname": "Tran trung",
+      "email": "trung@gmail.com",
+      "phone": 973127008,
+      "id": 8
+    }
+  ],
+  "marks": [
+    {
+      "subjectName": "Đề Thi Cuối Kỳ",
+      "user_id": 1,
+      "mark": 1,
+      "date": "2022-04-19",
+      "contentAnswer": [
+        {
+          "Text": "There‟s a lot______violent crime in this area than there used to be.",
+          "Answer": "change"
+        },
+        {
+          "Text": "Mark the letter A, B, C, or D on your answer sheet to indicate the word that differs from the other three in the position of primary stress in each of the following questions.",
+          "Answer": "applicant"
+        },
+        {
+          "Text": "There‟s a lot______violent crime in this area than there used to be.",
+          "Answer": "change"
+        },
+        {
+          "Text": "Mark the letter A, B, C, or D on your answer sheet to indicate the word whose underlined part differs from the other three in pronunciation in each of the following questions.",
+          "Answer": "blamed"
+        },
+        {
+          "Text": "James was asking about a lot of personal things. I didn‟t like______about my private life.",
+          "Answer": "being asked"
+        },
+        {
+          "Text": "Vietnam U23 made not only Asia but also Europe keep a close eye on them. They _____ internationally.",
+          "Answer": "had made headlines"
+        },
+        {
+          "Text": "I‟m afraid we no longer sell that model of laptop because we had_____a lot of complaints.",
+          "Answer": "too"
+        },
+        {
+          "Text": "There‟s a lot______violent crime in this area than there used to be.",
+          "Answer": "change"
+        },
+        {
+          "Text": "The doctor asked John to exhale slowly.",
+          "Answer": "promoted"
+        },
+        {
+          "Text": "The party leader travelled the length and_____of the country in an attempt to spread his message.",
+          "Answer": "distance"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "subjectName": "Pro A: Luyện đề Sinh học 2022",
+      "user_id": 1,
+      "mark": 2,
+      "date": "2022-04-20",
+      "contentAnswer": [
+        {
+          "Text": "Những khí này là ít nhất phong phú trong Trái Đất khí quyển sớm, trước khi tới 2 tỷ năm trước?",
+          "Answer": "CO2"
+        },
+        {
+          "Text": "Trong một phòng thí nghiệm các nhà khoa học đã tạo ra một cá thể lợn có các chỉ số sinh lí trùng với con người với hy vọng sẽ thay thế được các bộ phận cho con người. Hãy đề xuất phương án nhân rộng cá thể lợn này",
+          "Answer": "Nhân giống thuần chủng"
+        },
+        {
+          "Text": "Nếu một cây dị hợp tử 3 cặp gen(các gen trội hoàn toàn) tự thụ phấn thì các xác suất",
+          "Answer": "(2) đồng hợp tử đối với ba tính trạng lặn"
+        },
+        {
+          "Text": "Một bệnh nhân muốn biết những yếu tố nguy cơ hội chứng Down, câu trả lời tốt nhất là gì?",
+          "Answer": "Tiền sử gia đình của hội chứng Down"
+        },
+        {
+          "Text": "Sự xuất hiện kiểu hình mới so với bố mẹ trong trường hợp 2 cặp gen thuộc 1 cặp NST tương đồng là do",
+          "Answer": "Không phân li NST"
+        },
+        {
+          "Text": "Phenylketonuria (PKU) là một bệnh di truyền do một alen lặn. Nếu một người phụ nữ và chồng, cả hai đều mang gen bệnh, có ba đứa con, xác suất để cả ba đứa con bình thường là",
+          "Answer": "1/64"
+        },
+        {
+          "Text": "Sắp xếp các khái niệm dưới đây theo mức giảm dần mức độ tổ chức?",
+          "Answer": "Quần xã, hệ sinh thái, cá thể, quần thể."
+        },
+        {
+          "Text": "Những enzyme được sử dụng để sản xuất các phân tử trong hình dưới?",
+          "Answer": "ADN polymerase"
+        },
+        {
+          "Text": "Trong những năm hạn hán trên Galapagos, các hạt nhỏ dễ dàng ăn trở nên khan hiếm, để lại chủ yếu là hạt lớncứng, cho rằng chỉ có con chim với chiếc mỏ lớn mới có thể ăn được chúng. Nếu hạn hán vẫn tồn trong nhiều năm, những gì người ta có thể mong đợi về kết quả của chọn lọc tự nhiên?",
+          "Answer": "chim mỏ nhỏ chết nhiều hơn loài chim có mỏ lớn. Các con mỏ lớn có số lượng con cháu nhiều hơn."
+        },
+        {
+          "Text": "Trong một phòng thí nghiệm các nhà khoa học đã tạo ra một cá thể lợn có các chỉ số sinh lí trùng với con người với hy vọng sẽ thay thế được các bộ phận cho con người. Hãy đề xuất phương án nhân rộng cá thể lợn này",
+          "Answer": "Nhân giống thuần chủng"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "subjectName": "Hoá Học Live A",
+      "user_id": 1,
+      "mark": 6,
+      "date": "2022-04-20",
+      "contentAnswer": [
+        {
+          "Text": "Cho các chất: C2H5COOH (1), CH3OH (2), CH2=CHCOOH (3), C6H5OH (4). Các chất tác dụng được với Na kim loại, dung dịch Br2, dung dịch NaOH là",
+          "Answer": "(1) và (2)."
+        },
+        {
+          "Text": "Ancol và amin nào sau đây cùng bậc?",
+          "Answer": "(CH3)2CHOH và (CH3)2CHNH2."
+        },
+        {
+          "Text": "Cho các chất: etilen; saccarozơ; axetilen; fructozơ; anđehit axetic; tinh bột; axit fomic;xenlulozơ; glucozơ. Số chất có thể phản ứng với dung dịch AgNO3 trong NH3 tạo kết tủa là",
+          "Answer": "6"
+        },
+        {
+          "Text": "Phát biểu không đúng là",
+          "Answer": "Đipeptit glyxylalanin (mạch hở) có 2 liên kết peptit."
+        },
+        {
+          "Text": "Ứng với công thức C5H13N có số đồng phân amin bậc 3 là",
+          "Answer": "3"
+        },
+        {
+          "Text": "Ancol và amin nào sau đây cùng bậc?",
+          "Answer": "(CH3)2CHOH và (CH3)2CHNH2."
+        },
+        {
+          "Text": "Phát biểu không đúng là",
+          "Answer": "Đipeptit glyxylalanin (mạch hở) có 2 liên kết peptit."
+        },
+        {
+          "Text": "Cho các polime sau: tơ nilon-6,6; poli(vinyl clorua); thủy tinh plexiglas; teflon; nhựa novolac; tơ visco, tơ nitron, cao su buna. Trong đó, số polime được điều chế bằng phản ứng trùng hợp là",
+          "Answer": "4"
+        },
+        {
+          "Text": "Ứng với công thức C5H13N có số đồng phân amin bậc 3 là",
+          "Answer": "3"
+        },
+        {
+          "Text": "Tinh bột, xenlulozơ, saccarozơ, mantozơ đều có khả năng tham gia phản ứng",
+          "Answer": "tráng gương."
+        }
+      ],
+      "id": 3
+    },
+    {
+      "subjectName": "Hoá Học Live A",
+      "mark": 1,
+      "date": "2022-04-23",
+      "contentAnswer": [
+        {
+          "Text": "Dãy nào sau đây chỉ gồm các polime có cấu trúc không phân nhánh?",
+          "Answer": "Polibutađien, poliisopren, amilopectin, xelulozơ."
+        },
+        {
+          "Text": "Một số este được dùng trong hương liệu, mỹ phẩm, bột giặt là nhờ các este",
+          "Answer": "có thể bay hơi nhanh sau khi sử dụng."
+        },
+        {
+          "Text": "Dãy nào sau đây chỉ gồm các polime có cấu trúc không phân nhánh?",
+          "Answer": "Polibutađien, poliisopren, amilopectin, xelulozơ."
+        },
+        {
+          "Text": "Tinh bột, xenlulozơ, saccarozơ, mantozơ đều có khả năng tham gia phản ứng",
+          "Answer": "tráng gương."
+        },
+        {
+          "Text": "Dãy nào sau đây chỉ gồm các polime có cấu trúc không phân nhánh?",
+          "Answer": "Polibutađien, poliisopren, amilopectin, xelulozơ."
+        },
+        {
+          "Text": "Một số este được dùng trong hương liệu, mỹ phẩm, bột giặt là nhờ các este",
+          "Answer": "có thể bay hơi nhanh sau khi sử dụng."
+        },
+        {
+          "Text": "Ancol và amin nào sau đây cùng bậc?",
+          "Answer": "(CH3)2CHOH và (CH3)2CHNH2."
+        },
+        {
+          "Text": "Cho các polime sau: tơ nilon-6,6; poli(vinyl clorua); thủy tinh plexiglas; teflon; nhựa novolac; tơ visco, tơ nitron, cao su buna. Trong đó, số polime được điều chế bằng phản ứng trùng hợp là",
+          "Answer": "4"
+        },
+        {
+          "Text": "Tinh bột, xenlulozơ, saccarozơ, mantozơ đều có khả năng tham gia phản ứng",
+          "Answer": "tráng gương."
+        },
+        {
+          "Text": "Phản ứng trùng ngưng là phản ứng",
+          "Answer": "cộng hợp liên tiếp nhiều phân tử nhỏ thành phân tử lớn và tách loại H2O."
+        }
+      ],
+      "id": 4
+    },
+    {
+      "subjectName": "Pro S: Luyện thi Đại học môn Sinh Học 2022",
+      "mark": 3,
+      "date": "2022-04-23",
+      "contentAnswer": [
+        {
+          "Text": "Bệnh mù màu đỏ- lục là bệnh do đột biến gen lặn liên kết với NST giới tính X. Hai vợ chồng có khả năng nhìn bình thường có một con trai bị mù màu. Các kiểu gen của cha mẹ là gì?",
+          "Answer": "XcXc và XCY"
+        },
+        {
+          "Text": "Trong một phòng thí nghiệm các nhà khoa học đã tạo ra một cá thể lợn có các chỉ số sinh lí trùng với con người với hy vọng sẽ thay thế được các bộ phận cho con người. Hãy đề xuất phương án nhân rộng cá thể lợn này",
+          "Answer": "Nhân giống thuần chủng"
+        },
+        {
+          "Text": "Bệnh mù màu đỏ- lục là bệnh do đột biến gen lặn liên kết với NST giới tính X. Hai vợ chồng có khả năng nhìn bình thường có một con trai bị mù màu. Các kiểu gen của cha mẹ là gì?",
+          "Answer": "XcXc và XCY"
+        },
+        {
+          "Text": "Sắp xếp các khái niệm dưới đây theo mức giảm dần mức độ tổ chức?",
+          "Answer": "Quần xã, hệ sinh thái, cá thể, quần thể."
+        },
+        {
+          "Text": "Phenylketonuria (PKU) là một bệnh di truyền do một alen lặn. Nếu một người phụ nữ và chồng, cả hai đều mang gen bệnh, có ba đứa con, xác suất để cả ba đứa con bình thường là",
+          "Answer": "1/64"
+        },
+        {
+          "Text": "Trong phép lai phân tích bố quả dẹt, mẹ quả dài thu được thế hệ con có tỉ lệ= 1 quả dẹt: 2 quả tròn: 1 quả dài. Hãy xác định qui luật di truyền chi phối phép lai trên.",
+          "Answer": "Hoán vị gen, mỗi gen qui định một tính trạng"
+        },
+        {
+          "Text": "Bệnh mù màu đỏ- lục là bệnh do đột biến gen lặn liên kết với NST giới tính X. Hai vợ chồng có khả năng nhìn bình thường có một con trai bị mù màu. Các kiểu gen của cha mẹ là gì?",
+          "Answer": "XcXc và XCY"
+        },
+        {
+          "Text": "Nếu một cây dị hợp tử 3 cặp gen(các gen trội hoàn toàn) tự thụ phấn thì các xác suất",
+          "Answer": "(2) đồng hợp tử đối với ba tính trạng lặn"
+        },
+        {
+          "Text": "Bệnh mù màu đỏ- lục là bệnh do đột biến gen lặn liên kết với NST giới tính X. Hai vợ chồng có khả năng nhìn bình thường có một con trai bị mù màu. Các kiểu gen của cha mẹ là gì?",
+          "Answer": "XcXc và XCY"
+        },
+        {
+          "Text": "Trong một thí nghiệm nhân giống cá thể của một quần thể động vật. Sau nhiều thế hệ, có 25% cá thể động vật có tính trạng lặn (aa), bằng tỷ lệ phần trăm như lúc bắt đầu chương trình nhân giống. Phần còn lại là các cá thể có kiểu hình đồng hợp tử trội và dị hợp, kết luận hợp lý nhất có thể được rút ra từ thực tế tần số của tính trạng lặn (aa) đã không thay đổi theo thời gian?",
+          "Answer": "Xuất hiện một tỷ lệ cao đột biến của alen A thành alen a."
+        }
+      ],
+      "id": 5
+    },
+    {
+      "subjectName": "Hoá Học Live T",
+      "user_id": 7,
+      "mark": 4,
+      "date": "2022-04-24",
+      "contentAnswer": [
+        {
+          "Text": "Ứng với công thức C5H13N có số đồng phân amin bậc 3 là",
+          "Answer": "3"
+        },
+        {
+          "Text": "Cho các chất: C2H5COOH (1), CH3OH (2), CH2=CHCOOH (3), C6H5OH (4). Các chất tác dụng được với Na kim loại, dung dịch Br2, dung dịch NaOH là",
+          "Answer": "(1) và (2)."
+        },
+        {
+          "Text": "Tinh bột, xenlulozơ, saccarozơ, mantozơ đều có khả năng tham gia phản ứng",
+          "Answer": "tráng gương."
+        },
+        {
+          "Text": "Cho các chất: etilen; saccarozơ; axetilen; fructozơ; anđehit axetic; tinh bột; axit fomic;xenlulozơ; glucozơ. Số chất có thể phản ứng với dung dịch AgNO3 trong NH3 tạo kết tủa là",
+          "Answer": "6"
+        },
+        {
+          "Text": "Cho các chất: etilen; saccarozơ; axetilen; fructozơ; anđehit axetic; tinh bột; axit fomic;xenlulozơ; glucozơ. Số chất có thể phản ứng với dung dịch AgNO3 trong NH3 tạo kết tủa là",
+          "Answer": "6"
+        },
+        {
+          "Text": "Cho các chất: etilen; saccarozơ; axetilen; fructozơ; anđehit axetic; tinh bột; axit fomic;xenlulozơ; glucozơ. Số chất có thể phản ứng với dung dịch AgNO3 trong NH3 tạo kết tủa là",
+          "Answer": "6"
+        },
+        {
+          "Text": "Phát biểu đúng là?",
+          "Answer": "Khi thủy phân chất béo luôn thu được C2H4(OH)2."
+        },
+        {
+          "Text": "Ancol và amin nào sau đây cùng bậc?",
+          "Answer": "(CH3)2CHOH và (CH3)2CHNH2."
+        },
+        {
+          "Text": "Dãy nào sau đây chỉ gồm các polime có cấu trúc không phân nhánh?",
+          "Answer": "Polibutađien, poliisopren, amilopectin, xelulozơ."
+        },
+        {
+          "Text": "Cho các polime sau: tơ nilon-6,6; poli(vinyl clorua); thủy tinh plexiglas; teflon; nhựa novolac; tơ visco, tơ nitron, cao su buna. Trong đó, số polime được điều chế bằng phản ứng trùng hợp là",
+          "Answer": "4"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "subjectName": "Hoá Học Live A",
+      "user_id": 7,
+      "mark": 4,
+      "date": "2022-04-24",
+      "contentAnswer": [
+        {
+          "Text": "Cho các chất: etilen; saccarozơ; axetilen; fructozơ; anđehit axetic; tinh bột; axit fomic;xenlulozơ; glucozơ. Số chất có thể phản ứng với dung dịch AgNO3 trong NH3 tạo kết tủa là",
+          "Answer": "6"
+        },
+        {
+          "Text": "Phản ứng trùng ngưng là phản ứng",
+          "Answer": "cộng hợp liên tiếp nhiều phân tử nhỏ thành phân tử lớn và tách loại H2O."
+        },
+        {
+          "Text": "Ứng với công thức C5H13N có số đồng phân amin bậc 3 là",
+          "Answer": "3"
+        },
+        {
+          "Text": "Cho các chất: etilen; saccarozơ; axetilen; fructozơ; anđehit axetic; tinh bột; axit fomic;xenlulozơ; glucozơ. Số chất có thể phản ứng với dung dịch AgNO3 trong NH3 tạo kết tủa là",
+          "Answer": "6"
+        },
+        {
+          "Text": "Cho các chất: etilen; saccarozơ; axetilen; fructozơ; anđehit axetic; tinh bột; axit fomic;xenlulozơ; glucozơ. Số chất có thể phản ứng với dung dịch AgNO3 trong NH3 tạo kết tủa là",
+          "Answer": "6"
+        },
+        {
+          "Text": "Phương thức onStartCommand được gọi khi nào?",
+          "Answer": "Khi phương thức startService được gọi"
+        },
+        {
+          "Text": "Ứng với công thức C5H13N có số đồng phân amin bậc 3 là",
+          "Answer": "3"
+        },
+        {
+          "Text": "Một số este được dùng trong hương liệu, mỹ phẩm, bột giặt là nhờ các este",
+          "Answer": "có thể bay hơi nhanh sau khi sử dụng."
+        },
+        {
+          "Text": "Cho các chất: C2H5COOH (1), CH3OH (2), CH2=CHCOOH (3), C6H5OH (4). Các chất tác dụng được với Na kim loại, dung dịch Br2, dung dịch NaOH là",
+          "Answer": "(1) và (2)."
+        },
+        {
+          "Text": "Phản ứng trùng ngưng là phản ứng",
+          "Answer": "cộng hợp liên tiếp nhiều phân tử nhỏ thành phân tử lớn và tách loại H2O."
+        }
+      ],
+      "id": 7
+    },
+    {
+      "subjectName": "Hoá Học Live A",
+      "user_id": 7,
+      "mark": 3,
+      "date": "2022-04-24",
+      "contentAnswer": [
+        {
+          "Text": "Cho sơ đồ phản ứng: thuốc súng không khói ← X → Y → Sobitol. X, Y lần lượt là",
+          "Answer": "saccarozơ, glucozơ."
+        },
+        {
+          "Text": "Dãy nào sau đây chỉ gồm các polime có cấu trúc không phân nhánh?",
+          "Answer": "Polibutađien, poliisopren, amilopectin, xelulozơ."
+        },
+        {
+          "Text": "Phát biểu đúng là?",
+          "Answer": "Khi thủy phân chất béo luôn thu được C2H4(OH)2."
+        },
+        {
+          "Text": "Phát biểu không đúng là",
+          "Answer": "Đipeptit glyxylalanin (mạch hở) có 2 liên kết peptit."
+        },
+        {
+          "Text": "Tinh bột, xenlulozơ, saccarozơ, mantozơ đều có khả năng tham gia phản ứng",
+          "Answer": "tráng gương."
+        },
+        {
+          "Text": "Ứng với công thức C5H13N có số đồng phân amin bậc 3 là",
+          "Answer": "3"
+        },
+        {
+          "Text": "Phát biểu đúng là?",
+          "Answer": "Khi thủy phân chất béo luôn thu được C2H4(OH)2."
+        },
+        {
+          "Text": "Phản ứng trùng ngưng là phản ứng",
+          "Answer": "cộng hợp liên tiếp nhiều phân tử nhỏ thành phân tử lớn và tách loại H2O."
+        },
+        {
+          "Text": "Phương thức onStartCommand được gọi khi nào?",
+          "Answer": "Khi phương thức startService được gọi"
+        },
+        {
+          "Text": "Dãy nào sau đây chỉ gồm các polime có cấu trúc không phân nhánh?",
+          "Answer": "Polibutađien, poliisopren, amilopectin, xelulozơ."
+        }
+      ],
+      "id": 8
+    },
+    {
+      "subjectName": "Hoá Học Live T",
+      "user_id": 1,
+      "mark": 1,
+      "date": "2022-04-24",
+      "contentAnswer": [
+        {
+          "Text": "Polime nào điều chế được thủy tinh hữu cơ?",
+          "Answer": "Poli(vinyl axetat)."
+        },
+        {
+          "Text": "Ancol và amin nào sau đây cùng bậc?",
+          "Answer": "(CH3)2CHOH và (CH3)2CHNH2."
+        },
+        {
+          "Text": "Tinh bột, xenlulozơ, saccarozơ, mantozơ đều có khả năng tham gia phản ứng",
+          "Answer": "tráng gương."
+        },
+        {
+          "Text": "Phương thức onStartCommand được gọi khi nào?",
+          "Answer": "Khi phương thức startService được gọi"
+        },
+        {
+          "Text": "Cho các chất: etilen; saccarozơ; axetilen; fructozơ; anđehit axetic; tinh bột; axit fomic;xenlulozơ; glucozơ. Số chất có thể phản ứng với dung dịch AgNO3 trong NH3 tạo kết tủa là",
+          "Answer": "6"
+        },
+        {
+          "Text": "Cho các chất: C2H5COOH (1), CH3OH (2), CH2=CHCOOH (3), C6H5OH (4). Các chất tác dụng được với Na kim loại, dung dịch Br2, dung dịch NaOH là",
+          "Answer": "(1) và (2)."
+        },
+        {
+          "Text": "Một số este được dùng trong hương liệu, mỹ phẩm, bột giặt là nhờ các este",
+          "Answer": "có thể bay hơi nhanh sau khi sử dụng."
+        },
+        {
+          "Text": "Cho sơ đồ phản ứng: thuốc súng không khói ← X → Y → Sobitol. X, Y lần lượt là",
+          "Answer": "saccarozơ, glucozơ."
+        },
+        {
+          "Text": "Cho các chất: etilen; saccarozơ; axetilen; fructozơ; anđehit axetic; tinh bột; axit fomic;xenlulozơ; glucozơ. Số chất có thể phản ứng với dung dịch AgNO3 trong NH3 tạo kết tủa là",
+          "Answer": "6"
+        },
+        {
+          "Text": "Phát biểu đúng là?",
+          "Answer": "Khi thủy phân chất béo luôn thu được C2H4(OH)2."
+        }
+      ],
+      "id": 9
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+    a {
+        display: block;
+        color: black;
+    }
+    img{width: 100%;}
+    .container-fluid {
+        padding: 0;
+    }
+
+    /* icon */
+    .icon-sidebar {
+        padding: 8px 13px;
+    }
+
+    .sidebar {
+        min-height: calc(100vh - 60px);
+        background: #ffffff;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        background-color: #f2f2f2;
+        padding: 0;
+        width: 257px;
+        z-index: 11;
+        transition: width 0.25s ease, background 0.25s ease;
+        -webkit-transition: width 0.25s ease, background 0.25s ease;
+        -moz-transition: width 0.25s ease, background 0.25s ease;
+        -ms-transition: width 0.25s ease, background 0.25s ease;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        -ms-box-shadow: none;
+        border-right: 1px solid #e3e3e3;
+
+    }
+
+    .main-content {
+        transition: width 0.25s ease, margin 0.25s ease;
+        width: calc(100% - 257px);
+        min-height: calc(100vh - 60px);
+        /* min-height: 600px; */
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        background-color: #f2f2f2;
+    }
+
+    .page-body-wrapper {
+        min-height: calc(100vh - 60px);
+        /* min-height: 600px; */
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 60px;
+    }
+.navbar-header{background-color: #1565c0ff !important}
+.navbar-header a{color: white !important}
+    /* xử lý hiệu ứng khi nhấn vào nút slide */
+    .sidebar-only .main-content {
+        width: calc(100% - 70px);
+      
+    }
+
+    .sidebar-only .sidebar {
+        width: 70px;
+
+        /* display: none; */
+    }
+
+    .sidebar-only .sidebar .nav .nav-item .nav-link i.menu-arrow {
+        display: none;
+    }
+
+    .sidebar-only .sidebar .nav .nav-item .nav-link .menu-title,
+    .sidebar-only .sidebar .nav .nav-item .nav-link .badge,
+    .sidebar-only .sidebar .nav .nav-item .nav-link .menu-sub-title {
+        display: none;
+    }
+
+    .sidebar .nav .nav-item .nav-link {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        white-space: nowrap;
+        padding: 10px 27px;
+        color: #444;
+        line-height: 1.5;
+        font-weight: 500;
+    }
+    .sidebar .nav-link:hover {
+       color: rgb(0, 114, 188) !important;
+    }
+
+    .sidebar .nav .nav-item .sub-menu {
+        margin: 0px 49px;
+    }
+
+    .sidebar .nav .nav-item .sub-menu .nav-link {
+        padding: 5px 10px;
+    }
+
+    .menu-title {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* sử lý ở thanh navbar khi icon ẩn đi */
+    .sidebar-only .sidebar .nav-item {
+        position: relative;
+    }
+
+    .sidebar-only .sidebar .nav-item .show {
+        background-color: gold;
+        position: absolute;
+        left: 70px;
+        top: 0px;
+        border-radius: 0 5px 0 0px;
+        box-shadow: 5px 10px 5px #888888;
+
+    }
+    .sidebar .nav-item a i{padding: 0px 5px;}
+
+    .sidebar-only .sidebar .nav .nav-item .sub-menu {
+        margin: 0px 10px;
+    }
+    .sidebar-only .sidebar .info-web{
+        display: none;
+    }
+    .sidebar .info-web li.nav-item{
+        width: 100%;
+
+    }
+    .sidebar .info-web li.nav-item a.nav-link{
+        padding: 0px 11px ;
+        display: block;
+    }
+
+
+
+
+
+    /* css cho main-content */
+    .content{
+        margin: 15px;
+        background: #fff;
+        padding: 15px 15px;
+    }
+    .stretch-card > form {
+    width: 100%;
+    min-width: 100%;
+    
+}
+.content-full{
+    min-height: 650px;
+    background: #fff;
+    padding: 15px 15px;
+}
+/* footer */
+footer{
+    background-color: gray;
+    padding: unset ;
+    color: white;
+}
+footer p{
+    margin-bottom: 3px;
+}
+
+/* css cho main content */
+.oneCard .card-body {
+   
+    padding: 5px 15px 10px;
+}
+.tiento{
+    position:absolute;
+    left: 0;
+    top: 0;
+    background-color: red;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 0 0 5px;
+}
+.oneCard .card-title{
+    line-height: 20px !important;
+    font-size: 16px;
+}
+.oneCard .card-text {
+    font-size: 12px;
+}
+.oneCard .card-footer .btn{
+    width: 100%;
+    font-weight: 600;
+    background-color: #28b1ff;
+}
+.oneCard .card-footer{
+    padding: 0px 10px 10px;
+    background-color: #fff;
+    border-top:none;
+    display: none;
+   
+ 
+  
+
+}
+.oneCard { 
+
+transition: all 0.3s;
+margin: 10px 0px;
+transform: scale(1,1);
+-moz-transform: scale(1,1);
+-webkit-transform: scale(1,1);
+-o-transform: scale(1,1);
+-ms-transform: scale(1,1);
+
+    }
+.oneCard:hover {
+    box-shadow: 5px 5px 10px gray;
+    width: 90%;
+    transform: scale(1,1.01);
+    -moz-transform: scale(1,1.01);
+    -webkit-transform: scale(1,1.01);
+    -o-transform: scale(1,1.01);
+    -ms-transform: scale(1,1.01);
+    position: absolute;
+    z-index: 10;
+    
+}
+.oneCard:hover .card-footer{
+    display: block;
+   
+}
+.listCourse{
+    position: relative;
+}
+
+hr {
+    margin:0px;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}

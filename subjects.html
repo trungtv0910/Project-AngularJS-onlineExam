@@ -1,0 +1,28 @@
+<div class="content listcourse">
+    <div class="row" >
+        <div class="col-sm-6 col-md-4 col-lg-3" ng-repeat="item in list_subject">
+            <div class="card oneCard">
+                <div class="tiento">New</div>
+                <img src="image/logos/{{item.Logo}}"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{item.Name}}</h5>
+                    <p class="card-text">Giáo Viên: {{item.Teacher}}</p>
+                    <small class="text-muted"><i class="fa-solid fa-circle-question"></i> 50 Câu
+                        hỏi</small>
+                    <small class="text-muted"><i class="fa-solid fa-clock"></i> 60 phút</small>
+                </div>
+                <div class="card-footer">
+                    <a href="#!quiz/{{item.Id}}/{{item.Name}}"> <button  class="btn btn-primary">Vào Thi</button></a>
+                   
+                </div>
+            </div>
+        </div>
+        <!-- một khoá học -->
+      
+    </div>
+</div>
+
+
+<!-- khoá học liên quan -->
+<div ng-include="'components/carousel.html'"></div>
